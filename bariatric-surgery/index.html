@@ -211,9 +211,7 @@ var cnArgs = {"ajaxUrl":"\/wp-admin\/admin-ajax.php","nonce":"72c7e0616f","hideE
 				</div>
 		<div class="elementor-element elementor-element-3962f89 e-flex e-con-boxed e-con e-parent" data-id="3962f89" data-element_type="container" data-e-type="container" data-settings="{}">
 					<div class="e-con-inner">
-		<div class="elementor-background-video-container elementor-hidden-mobile">
-							
-					</div><div class="elementor-element elementor-element-2f2cc0d animated-slow e-con-full e-flex elementor-invisible e-con e-child" data-id="2f2cc0d" data-element_type="container" data-e-type="container" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_tablet&quot;:&quot;none&quot;}">
+		<div class="elementor-background-video-container elementor-hidden-mobile"><video class="elementor-background-video-hosted" role="presentation" autoplay muted playsinline loop preload="auto" poster="/wp-content/uploads/2025/08/hero-postbariatric.jpg" src="/wp-content/uploads/2025/08/hero.mp4"></video></div><div class="lp-hero-scrim"></div><div class="elementor-element elementor-element-2f2cc0d animated-slow e-con-full e-flex elementor-invisible e-con e-child" data-id="2f2cc0d" data-element_type="container" data-e-type="container" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_tablet&quot;:&quot;none&quot;}">
 				<div class="elementor-element elementor-element-a609e16 elementor-widget elementor-widget-heading" data-id="a609e16" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h1 class="elementor-heading-title elementor-size-default">Corpul pe Care l-ai Câștigat, Silueta pe Care o Meriți – Chirurgie Postbariatrică</h1>				</div>
@@ -1810,8 +1808,11 @@ i.fal::before{content:none !important}
 </script>
 
 <style id="lp-postbariatric-fixes">
-.elementor-element-3962f89 .elementor-background-video-container{display:none !important}
-.elementor-element-3962f89{background-image:linear-gradient(90deg,rgba(28,12,38,.9) 0%,rgba(40,18,54,.62) 45%,rgba(74,35,80,.3) 100%),url(/wp-content/uploads/2025/08/hero-postbariatric.jpg) !important;background-size:cover !important;background-position:center right !important;background-repeat:no-repeat !important}
+.elementor-element-3962f89{position:relative;overflow:hidden;background-image:url(/wp-content/uploads/2025/08/hero-postbariatric.jpg) !important;background-size:cover !important;background-position:center right !important;background-repeat:no-repeat !important}
+.elementor-element-3962f89 .elementor-background-video-container{display:block !important;position:absolute;inset:0;z-index:0}
+.elementor-element-3962f89 .elementor-background-video-hosted{width:100%;height:100%;object-fit:cover;object-position:center right}
+.elementor-element-3962f89 .lp-hero-scrim{position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(22,9,30,.74) 0%,rgba(40,18,54,.44) 55%,rgba(74,35,80,.16) 100%)}
+.elementor-element-3962f89 .elementor-element-2f2cc0d{position:relative;z-index:2}
 .lp-tq{margin:0;padding:26px 24px;font-family:Baskervville,Georgia,serif;font-size:17px;line-height:1.6;font-style:italic;color:#3a2140;background:linear-gradient(160deg,#f7f1ef,#efe4ea);border-radius:0 26px 0 26px;border:1px solid #e4ddd1;border-bottom:4px solid #934bbb;position:relative;min-height:180px;display:flex;align-items:center}
 .lp-tq::before{content:"\201C";position:absolute;top:2px;left:14px;font-size:64px;line-height:1;color:#c87beb;font-family:Georgia,serif}
 </style>
