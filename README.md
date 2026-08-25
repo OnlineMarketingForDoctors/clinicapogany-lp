@@ -7,7 +7,7 @@ deployment is set to no-index** (see "No-indexing" below).
 
 | URL | File |
 | --- | --- |
-| `/clinicapogany-lp/bariatric-surgery` | `clinicapogany-lp/bariatric-surgery/index.html` |
+| `/bariatric-surgery` | `bariatric-surgery/index.html` |
 
 ## No-indexing (three layers)
 
